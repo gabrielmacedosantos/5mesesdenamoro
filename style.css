@@ -1,0 +1,126 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Seções */
+section {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+/* Textos */
+h1, h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #dc3545;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Galeria */
+.hidden {
+  display: none;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.controls {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.caption {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Corações */
+.heart {
+  position: fixed;
+  top: -20px;
+  font-size: 18px;
+  color: #ff007f;
+  animation: fall linear forwards;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes fall {
+  0% { transform: translateY(0) scale(0.7); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translateY(100vh) scale(1.2); opacity: 0; }
+}
