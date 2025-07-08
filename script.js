@@ -10,7 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     { src: 'foto2.jpeg', desc: 'Sorriso que me encantaa! 😍' },
     { src: 'foto3.jpeg', desc: 'Nosso primeiro relêzãoo e que beijãooooo! 😘' },
     { src: 'foto4.jpeg', desc: 'Abraço que me acolhe e me faz sentir seguro! 🤗' },
-    { src: 'foto5.jpeg', desc: '5 meses de muito amorzão! 💕' }
+    { src: 'foto6.png', desc: 'Realizou o meu sonho, tour na arena em um dia especial com uma pessoa especial! 🏟️🏆❤️' },
+    { src: 'foto7.jpeg', desc: 'Primeiro rolêzinho de festa junina que eu vou! kkk 🔥🌽'},
+    { src: 'foto8.jpeg', desc: 'Simplesmente zueirinha haha, e isso te faz unica! 🤪😻' },
+    { src: 'foto5.jpeg', desc: 'Hoje completamos 5 meses dessa nossa história linda que só cresce a cada dia. Amoréco, eu sou tão grato por ter vc ao meu lado, por cada sorriso, abraço e cada momento que compartilhamos juntos. Vc é meu aconchego, minha alegria, meu tudãooooo. Que venham muitos meses e anos pela frente, sempre com esse amor que só aumenta e aquece o coração e acima de tudo, que vc continue sendo essa mulher de Deus que vc é!. Te amo demais, minha pretinhaaaaa! ❤️ 💕' },
   ];
 
   let currentIndex = 0;
